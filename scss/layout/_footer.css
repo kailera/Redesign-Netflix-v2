@@ -1,0 +1,29 @@
+.footer{
+    background-color: var(--cor--black);
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__block{
+    width: 8vw;
+    margin: var(--p4);
+    color: var(--color-texto);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.footer__social__item{
+    margin: 1rem 1rem 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    transition: 0.3s;
+}
+
+.footer__social__item img{
+    width: var(--p1);
+}

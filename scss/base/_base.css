@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Oswald:wght@500&display=swap');
+:root{
+    --cor-background: #313030;
+    --color-texto: #f0eded;
+    --cor-base: #cc1f1f;
+    --cor-primary: rgb(240, 235, 235);
+    --cor-secondary: rgb(174, 168, 168);
+    --cor--black: #000000;
+
+    /* paddings (estender medidas para margens) */
+    --p1: 1.5rem;
+    --p2: 1.25rem;
+    --p3: 1rem;
+    --p4: .75rem;
+    --p5: .65rem;
+
+    /* fontes */
+    --logo-font: 'Oswald', sans-serif;
+    --body-font: 'Monda', sans-serif; 
+    --font-w1: 900;
+    --font-w2: 700;
+    --font-w3: 500;
+    
+    /* h1 - h6*/
+    --f1: 2.25rem; 
+    --f2: 2rem;
+    --f3: 1.65rem;
+    --f4: 1.25rem;
+    --f5: 1rem;
+    --f6:.975rem;
+}
+
+
+body{
+    background-color: var(--cor-background);
+    color: var(--color-texto);
+    font-family: var(--body-font);
+}
+

@@ -1,0 +1,19 @@
+.btn{
+    margin: var(--p2);
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--f4);
+    font-weight: var(--font-w3);
+    transition: 0.3s;
+}
+
+.btn__play{
+    background-color: var(--cor-base);
+    color:var(--cor-primary);
+}
+
+.btn__info{
+    color: var(--cor-secondary);
+}

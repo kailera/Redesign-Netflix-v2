@@ -1,0 +1,24 @@
+.header{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.header__logo{
+    font-size: var(--f3);
+    padding: var(--p1);
+    color: var(--cor-base);
+    font-family: var(--logo-font);
+    font-weight: var(--font-w1);
+}
+
+.header__item   {
+    color: var(--color-texto);
+    padding: var(--p1);
+    font-family: var(--body-font);
+    font-weight: var(--font-w3);
+    transition: 0.3s;
+}

@@ -1,0 +1,8 @@
+.header__item:hover,.footer__social__item:hover{
+    border-bottom: 1px solid var(--cor-base);   
+}
+
+.btn:hover{
+    background-color: var(--color-texto);
+    color: black;
+}
